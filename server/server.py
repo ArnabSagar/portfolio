@@ -12,6 +12,7 @@ def landing_page():
 def hello_world(username=None, post_id = None):
     return render_template('index.html', name=username, post_id=post_id)
 
+@app.route('/resume')
 
 # @app.route('/favicon.ico')
 # def blog():
